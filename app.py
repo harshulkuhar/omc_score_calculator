@@ -6,6 +6,8 @@ import streamlit as st
 from config import trial_names, world_records, median_scores, difficulty_modifiers
 from utils import calculate_relative_score, scale_with_difficulty
 
+st.set_page_config(page_title="OMC Score Calculator")
+
 # Map user-facing names to keys used in the scoring function
 trial_name_to_key = {
     "Maw of Lorkhaj": "vMOL",
