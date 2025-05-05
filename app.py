@@ -20,7 +20,7 @@ trial_name_to_key = {
     "Lucent Citadel": "vLC"
 }
 
-st.title("ESO Trial Score App")
+st.title("ESO - OMC 2025 Trial Score Calculator")
 
 # Trial name dropdown
 trial = st.selectbox("Choose Trial", trial_names, placeholder="Select Trial Name, eg. Kyne's Aegis")
